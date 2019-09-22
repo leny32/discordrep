@@ -16,8 +16,6 @@ let userData = await dRep.getUser(id);
 console.log(userData.username + " have been fetched.");
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
 ### Why?
 
 * Effiecent reputation system globalized
