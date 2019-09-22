@@ -1,6 +1,6 @@
 ## Welcome to DiscordRep Pages
 
-* [Home](/readme.md)
+* [Home](/README.md)
 
 
 
