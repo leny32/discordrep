@@ -2,7 +2,7 @@
 
 * [Home](/README.md)
 
-
+`npm install discordrep.js`
 
 discordrep.js is a powerful [node.js](https://nodejs.org/) module that allows you to interact with the [Discord API](https://discordapp.com/developers/docs/intro) very easy. Making your code and utility for your bot much more intersting with the integration with reputation points etc.
 
