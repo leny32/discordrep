@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Welcome to DiscordRep Pages
 
-You can use the [editor on GitHub](https://github.com/yezzl/discordrep/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+* [Home](/readme.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+discordrep.js is a powerful [node.js](https://nodejs.org/) module that allows you to interact with the [Discord API](https://discordapp.com/developers/docs/intro) very easy. Making your code and utility for your bot much more intersting with the integration with reputation points etc.
 
-```markdown
-Syntax highlighted code block
+### Example
 
-# Header 1
-## Header 2
-### Header 3
+```node
+const discordrep.js = require("discord.js");
+const dRep = new DiscordRep();
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+let userData = await dRep.getUser(id);
+console.log(userData.username + " have been fetched.");
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Why?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yezzl/discordrep/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* Effiecent reputation system globalized
+* Flexible
+* Guaranteed satificition
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you're having trouble with the documentation, please visit [DiscordRep](https://discordrep.com) or email us at support@discordrep.com.
